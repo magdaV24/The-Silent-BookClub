@@ -1,0 +1,68 @@
+
+.body{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+}
+.event-page{
+    width: 100%;
+    display: flex;
+    color: var(--acc-color);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.event-page .header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.event-page .header .title{
+    margin-right: 5px;
+    font-size: 35px;
+    display: inline-block;
+    gap: 10px;
+    letter-spacing: .05em;
+}
+
+
+.event-page .header .tags{
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    opacity: .7;
+    margin-left: 20%;
+}
+
+.event-page .header .user{
+    display: flex;
+    gap: 15px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.inclined{
+    font-style: italic;
+    margin-left: 8px;
+}
+.fact-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+p{
+    font-size: 18px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+

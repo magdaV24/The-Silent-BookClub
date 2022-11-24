@@ -1,0 +1,108 @@
+.journal-page{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.added-entries{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 150px;
+    gap: 40px;
+}
+
+
+.added-entries .entry{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 400px;
+    overflow: scroll;
+    margin: 5px;
+    padding: 10px;
+    background: var(--mint);
+    border-radius: 10px;
+    color: var(--primary-color);
+    box-shadow: 4px 4px 6px #1ce0db;
+    background-color: rgb(15, 104, 128, .5);
+    color: var(--background-color);
+    border: 1px solid var(--secondary-color);
+    text-align: left;
+}
+
+.entry::-webkit-scrollbar-track {
+    border: 1px solid var(--primary-color);
+    padding: 2px 0;
+    background-color: var(--acc-color);
+    border-radius: 6px;
+}
+  
+.entry::-webkit-scrollbar {
+    width: 8px;
+}
+
+.entry .button{
+    font-size: 20px;
+    color: var(--acc-color);
+}
+
+.entry .button:hover{
+    scale: 1.4;
+    cursor: pointer;
+}
+
+.entry .date{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: first baseline;
+     border-radius: 5px;
+}
+
+
+.entry .notes{
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+.quote-box{
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+    gap: 15px;
+}
+
+.quote-box .icon{
+    font-size: 15px;
+}
+
+.journal-page .btn{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--acc-color);
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.journal-page .btn:hover{
+    scale: 1.2;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}

@@ -1,0 +1,103 @@
+.events-page{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    color: var(--acc-color);
+}
+
+.added-events{
+    width: 80%;
+    height: fit-content;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.added-events .event{
+    width: 90%;
+    height: 300px;
+    border: 1px solid var(--acc-color);
+    box-shadow: 4px 4px 4px 4px var(--acc-color);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.added-events .title{
+    letter-spacing: .09em;
+}
+
+.added-events .title span{
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.added-events .tags{
+    display: flex;
+    opacity: 0.6;
+    gap: 5px;
+    font-style: italic;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
+.added-events .created-by{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.added-events .date{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.added-events .description{
+    width: 100;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+}
+
+.event .description span{
+    font-style: italic;
+}
+
+.event .button{
+    width: 90px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid var(--acc-color);
+    color: var(--acc-color);
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event .button:hover{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.added-events .btn{
+    width: 90px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid var(--acc-color);
+    color: var(--acc-color);
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 60rem;
+}
+
+.added-events .btn:hover{
+    scale: 1.2;
+}

@@ -1,0 +1,50 @@
+.navbar{
+    position: relative;
+    width: auto;
+    background: var(--primary-color);
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: flex;
+    color: var(--acc-color);
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--acc-color);
+}
+
+.navbar .site-name{
+    font-size: 2.5rem;
+    font-family: 'Parisienne', cursive;
+}
+
+.navbar .buttons{
+    display: flex;
+    margin-left: 500px;
+    gap: 2.2rem;
+    font-size: 1.5rem;
+}
+
+.navbar .username{
+    color: var(--acc-color);
+    font-size: 1.5rem;
+}
+
+.navbar .btn{
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--acc-color);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+

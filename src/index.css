@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Great+Vibes&family=Parisienne&family=Viaoda+Libre&display=swap');
+
+:root{
+  --background-color: #180d25 ;
+  --primary-color: #0f6880;
+  --secondary-color:  #1ce0db;
+  --acc-color: #acd7e2;
+  --online: #009b7d;
+  --offline: #e62020;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Viaoda Libre', cursive;
+  background-color: var(--background-color);
+}
+
+body::-webkit-scrollbar {
+  width: .5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+}

@@ -1,0 +1,46 @@
+.participants{
+    display: flex;
+}
+
+.participants-bar{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    height: 100px;
+    width: 100%;
+    padding: 8px;
+}
+
+.participants-bar .user-box{
+    display: flex;
+    gap: 10px;
+    min-width: 150px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #682860;
+    color: #dcd0ff;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.participants button{
+    width: 10%;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -200px;
+    right: 0;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 1px solid var(--acc-color);
+    background-color: var(--secondary-color);
+    color: var(--acc-color);
+
+}
+
+.participants-bar .message{
+    color: #dcd0ff;
+}

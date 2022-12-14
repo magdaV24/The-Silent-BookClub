@@ -3,7 +3,7 @@
 .comment-form{
     position: relative;
     width: 100%;
-    height: 30%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -21,7 +21,7 @@
 
 .comment-form textarea{
     width: 90%;
-    height: 150px;
+    height: 200px;
     outline: none;
     background: var(--acc-color);
     color: var(--background-color);
@@ -39,28 +39,17 @@
     border-radius: 6px;
 }
 
-/* Comments */
-
-.comments-page{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 /* Comment */
 
 .box{
     position: relative;
     width: 100%;
-    gap: 10px;
     height: fit-content;
 }
 
 .box .comment{
     border: 1px solid var(--acc-color);
-    width: 90%;
-    overflow-y: scroll;
+    width: 100%;
     display: flex;
     flex-direction: column;
     min-height: 200px;
@@ -68,37 +57,20 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     list-style: none;
-    margin-bottom: 10px;
 }
-
-.box .comment::-webkit-scrollbar-track {
-    border: 1px solid var(--primary-color);
-    padding: 2px 0;
-    background-color: var(--acc-color);
-    border-radius: 6px;
-}
-  
-.box .comment::-webkit-scrollbar {
-    width: 6px;
-}
-
 
 .box .comment .user{
     display: flex;
+    width: 50%;
+    align-items: flex-start;
     justify-content: flex-start;
-    margin-top: -20px;
     scale: .8;
-    width: 150px;
-    height: 60px;
 }
 
 .box .comment .comment-date{
     opacity: 0.6;
-    margin-top: -60px;
-    margin-left: 100px;
-    scale: .6;
 }
 
 .box .comment .content{
@@ -141,24 +113,17 @@
     gap: 5px;
 }
 
-.children{
+.children-box{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-    width: 80%;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .child-comment{
-    width: 80%;
-    height: 200px;
-    border: 1px solid var(--acc-color);
-    float: right;
-    border-radius: 6px;
-}
-
-.parent-comment{
-    width: 100%;
+    width: 90%;
 }
 
 .edit-box {
@@ -185,4 +150,12 @@
     background-color: var(--primary-color);
     color: var(--acc-color);
     border-radius: 6px;
+}
+
+/* Comments */
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

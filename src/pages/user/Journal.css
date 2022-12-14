@@ -20,29 +20,17 @@
     display: flex;
     flex-direction: column;
     width: 900px;
-    height: 400px;
-    overflow: scroll;
+    height: fit-content;
     margin: 5px;
     padding: 10px;
     background: var(--mint);
-    border-radius: 10px;
+    border-radius: 4px;
     color: var(--primary-color);
-    box-shadow: 4px 4px 6px #1ce0db;
+    box-shadow: 2px 2px 4px rgb(28, 224, 219, .4);
     background-color: rgb(15, 104, 128, .5);
     color: var(--background-color);
     border: 1px solid var(--secondary-color);
     text-align: left;
-}
-
-.entry::-webkit-scrollbar-track {
-    border: 1px solid var(--primary-color);
-    padding: 2px 0;
-    background-color: var(--acc-color);
-    border-radius: 6px;
-}
-  
-.entry::-webkit-scrollbar {
-    width: 8px;
 }
 
 .entry .button{

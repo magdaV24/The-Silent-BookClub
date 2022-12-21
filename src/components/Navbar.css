@@ -6,6 +6,7 @@
     box-sizing: border-box;
     display: flex;
     color: var(--acc-color);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.05);
 }
 
 .navbar ul{
@@ -34,11 +35,6 @@
     font-size: 1.5rem;
 }
 
-.navbar .username{
-    color: var(--acc-color);
-    font-size: 1.5rem;
-}
-
 .navbar .btn{
     font-size: 1.5rem;
     background-color: var(--primary-color);
@@ -48,3 +44,16 @@
     font-family: inherit;
 }
 
+.icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: var(--offline);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-top: -45px;
+    margin-left: 15px;
+}

@@ -6,8 +6,9 @@ export default function Sidebar() {
     return (
         <nav className='sidebar'>
             <ul>
-                <li><Link to='/journal'>Journal</Link></li>
                 <li><Link to='/events'>Events</Link></li>
+                <li><Link to='/books'>Books</Link></li>
+                <li><Link to='/journal'>Journal</Link></li>
             </ul>
         </nav>
     )

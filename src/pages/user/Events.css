@@ -16,9 +16,9 @@
 
 .added-events .event{
     width: 90%;
-    height: 300px;
+    height: fit-content;
     border: 1px solid var(--acc-color);
-    box-shadow: 4px 4px 4px 4px var(--acc-color);
+    box-shadow: 2px 2px 2px rgb(172, 215, 226, .5);
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -90,12 +90,12 @@
     color: var(--acc-color);
     background-color: var(--primary-color);
     border-radius: 10px;
-    margin-left: 45%;
+    margin-left: 55%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-left: 60rem;
+    margin-left: 72rem;
 }
 
 .added-events .btn:hover{

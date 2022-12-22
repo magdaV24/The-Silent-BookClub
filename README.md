@@ -1,11 +1,9 @@
-# A Silent BookClub
-A web application for everyone looking after a place to discuss books, but in silence. Build using React.js and Firebase.
+# Web app - A Silent Bookclub 
+## React web app created using Firebase.
 
-Make an account, look around the events that are available or suggest one yourself.
+After creating an account, users can search for any book of their interest, thanks to Google's book API. Each user can add books to their collection and rate it, either publicly or pivately. When a review is public, it can be seen by other users on their User Dashboard. They can reply, like or dislike the post. 
 
-Each user has their own journal. Their entries can only be seen by them.![journal1](https://user-images.githubusercontent.com/114444914/204759392-a5ec09ff-9a69-4731-93f2-ac9a30eb39f3.png)
+Users can also create events centered around any work of literature of their choice. On the event's page, users can leave comments on a nested loop. Comments can also be edited, deleted, liked or disliked. When someone interacts with someone's comments, the author will recieve a notification.
 
-The events page is where all the events are listed and a brief description and a link to the event's page is provided. ![events](https://user-images.githubusercontent.com/114444914/204759865-356bc1fc-f9bb-4ea3-bbef-8f1bf2855135.png)
-
-Once the user goes to an event's page, they have the option of becoming a participant and leave comments.![event-page1](https://user-images.githubusercontent.com/114444914/204760500-194a8743-a48f-4eba-8903-88873e43e1a8.png)
-![Screenshot_1](https://user-images.githubusercontent.com/114444914/204760509-21091c15-89c0-4662-aaff-98e418ea9aa4.png)
+![6-Books_Dashboard](https://user-images.githubusercontent.com/114444914/209230392-73d8c031-1823-42dd-99f9-2e6e79c9c3d6.png)
+![9-Nested_Comments](https://user-images.githubusercontent.com/114444914/209230398-3c0672a2-30d2-405f-b819-395bdf72e5c4.png)

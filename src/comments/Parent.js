@@ -12,6 +12,7 @@ import {
   faTrashCan,
 } from "@fortawesome/free-regular-svg-icons";
 import "./CommentStyles.css";
+import formatDistanceToNow from "date-fns/formatDistanceToNow";
 
 export default function Parent({ parent }) {
   const { user } = useAuthContext();
@@ -269,17 +270,17 @@ export default function Parent({ parent }) {
       setChild("");
 
       addDoc({
-        message: ' replyed to your comment!',
+        message: ' replied to your comment!',
         notificationBy: user.displayName,
         notificationTo: parentComment.createdBy
       })
     };
 
     return (
-      <div className="reply-box">
-        <form onSubmit={handleSubmit}>
-          <textarea onChange={(e) => setChild(e.target.value)} value={child} />
-          <button>Reply!</button>
+      <div>
+        <form onSubmit={handleSubmit} className='reply-box'>
+          <textarea onChange={(e) => setChild(e.target.value)} value={child} style={{width: '90%'}}/>
+          <button>Reply</button>
         </form>
       </div>
     );
@@ -294,7 +295,7 @@ export default function Parent({ parent }) {
                 <Avatar src={parent.picture} />
                 <p style={{ fontSize: "18px" }}>{parent.createdBy}</p>
                 <p style={{ opacity: ".8" }}>
-                  {parent.createdAt.toDate().toString().slice(0, 15)}
+                  {formatDistanceToNow(parent.createdAt.toDate(),{ addSuffix: true })}
                 </p>
               </div>
               <div>

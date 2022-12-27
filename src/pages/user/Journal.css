@@ -10,8 +10,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 40px;
     gap: 40px;
+    margin-right: 300px;
+    margin-top: 100px;
 }
 
 
@@ -26,21 +28,10 @@
     background: var(--mint);
     border-radius: 4px;
     color: var(--primary-color);
-    box-shadow: 2px 2px 4px rgb(28, 224, 219, .4);
     background-color: rgb(15, 104, 128, .5);
-    color: var(--background-color);
-    border: 1px solid var(--secondary-color);
-    text-align: left;
-}
-
-.entry .button{
-    font-size: 20px;
     color: var(--acc-color);
-}
-
-.entry .button:hover{
-    scale: 1.4;
-    cursor: pointer;
+    border: 3px inset var(--secondary-color);
+    text-align: left;
 }
 
 .entry .date{
@@ -68,7 +59,10 @@
 }
 
 .quote-box .icon{
-    font-size: 15px;
+    font-size: 10px;
+    margin: 0;
+    position: relative;
+    background-color: transparent;
 }
 
 .journal-page .btn{
@@ -86,11 +80,11 @@
     align-items: center;
     font-weight: bold;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .journal-page .btn:hover{
     scale: 1.2;
-    background-color: var(--secondary-color);
-    color: var(--background-color);
+    background-color: var(--primary-color);
+    color: var(--acc-color);
 }

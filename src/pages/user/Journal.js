@@ -2,12 +2,12 @@ import './Journal.css'
 
 import React from 'react'
 import Sidebar from '../../components/Sidebar'
-import UsersBar from '../../components/UsersBar'
 import { useCollection } from '../../hooks/useCollection'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import { useAuthContext } from '../../hooks/useAuthContext'
+import Navbar from '../../components/Navbar'
 
 export default function Journal() {
 
@@ -20,6 +20,8 @@ export default function Journal() {
  
   
   return (
+    <>
+    <Navbar />
     <div className='journal-page'>
       <Sidebar />
       <Link to='/addjournal' className='btn'>Add to your journal!</Link>
@@ -40,10 +42,8 @@ export default function Journal() {
           </div>
           
         ))}
-        
       </div>
-
-      <UsersBar />
     </div>
+    </>
   )
 }

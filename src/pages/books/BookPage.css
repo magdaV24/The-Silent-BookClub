@@ -1,0 +1,86 @@
+main{
+    display: flex;
+}
+
+main img{
+    border-radius: 3px;
+}
+
+.book-card{
+    width: 80%;
+    min-height: 400px;
+    height: fit-content;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    margin: 50px;
+    display: flex;
+    background-color: var(--acc-color);
+    padding: 10px
+}
+
+.col-1, .col-2{
+    position: relative;
+    width: 50%;
+    min-height: 400px;
+    height: fit-content;
+}
+
+h3{
+    font-weight: 700;
+    color: var(--background-color);
+}
+
+h4{
+    color: var(--background-color);
+    margin-left: 6px;
+}
+
+.book-rating span{
+    color: var(--background-color);
+}
+
+.col-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.author-title{
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.functions{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.review-form{
+    width: 80%;
+    height: 400px;
+    background-color: var(--acc-color);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+span{
+    font-size: 18px;
+}
